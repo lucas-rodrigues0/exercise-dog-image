@@ -1,0 +1,22 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dog-image {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  height: 500px;
+}
+
+.dog-image img {
+  max-height: 500px;
+}
+
+.message {
+  height: 500px;
+  text-align: center;
+  margin: 20px 0;
+}
