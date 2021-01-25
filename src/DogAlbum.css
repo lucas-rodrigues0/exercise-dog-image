@@ -1,0 +1,16 @@
+.album-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dogs-album {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 550px;
+}
+
+.dogs-album img {
+  margin: 5px;
+  max-width: 120px;
+}

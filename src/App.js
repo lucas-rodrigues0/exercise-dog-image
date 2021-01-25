@@ -25,10 +25,10 @@ class App extends React.Component {
       .then(res => res.json())
       .then(
         (result) => {
-          this.setState((prevState) => ({
+          this.setState({
             isLoaded: true,
             message: result.message,
-          }));
+          });
         },
         (error) => {
           this.setState({

@@ -1,4 +1,5 @@
 import React from 'react';
+import './DogButton.css';
 
 class DogButton extends React.Component {
   render() {
